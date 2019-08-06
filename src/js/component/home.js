@@ -14,11 +14,11 @@ export class Traffic extends React.Component {
 	render() {
 		//console.log(this.state);
 		let redClass = "";
-		if (this.state.lightC == "red") redClass = "selected";
+		if (this.state.lightC == "red") redClass = "on";
 		let yellowClass = "";
-		if (this.state.lightC == "yellow") yellowClass = "selected";
+		if (this.state.lightC == "yellow") yellowClass = "on";
 		let greenClass = "";
-		if (this.state.lightC == "green") greenClass = "selected";
+		if (this.state.lightC == "green") greenClass = "on";
 		return (
 			<div>
 				<div id="trafficTop" />
@@ -36,7 +36,7 @@ export class Traffic extends React.Component {
 						onClick={() => this.setState({ lightC: "green" })}
 					/>
 				</div>
-				<div className="pt-5">
+				<div>
 					<h3>
 						<p>Traffic Lights</p>
 					</h3>
