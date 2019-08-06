@@ -1,4 +1,4 @@
-# Hello World with React boilerplate
+# Hello World with React
 <p>
   <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
   </a>
@@ -6,13 +6,13 @@
 
 This template its similar to create-react-app but is meant for 4Geeks Academy students.
 
-##### Download the boilerplate using the BreatheCode CLI
+##### Download using the BreatheCode CLI
 ```
 $ npm i breathecode-cli -g
 $ bc start:react-project -r
 ```
 
-#### Or Download the boilerplate using git
+#### Or Download using git
 
 ```
 $ git clone https://github.com/4GeeksAcademy/react-hello.git
@@ -35,7 +35,7 @@ Add more files into your, `./src/js/components` or styles folder as you need the
 
 ## Publish your website!
 
-This boilerplate is 100% compatible with the free github pages hosting.
+100% compatible with the free github pages hosting.
 To publish your website you need to `push your code to your github repository` and run the following command after:
 ```sh
 $ npm run deploy
